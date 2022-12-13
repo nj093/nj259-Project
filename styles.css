@@ -1,0 +1,156 @@
+
+/*Developer: Naman Jain, IS117-003, Fall 2022-> */
+* {
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  
+.logo{
+    color: red;
+    text-shadow: 2px 2px #ffd900;
+}
+
+.navigation .ul-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.header-nav{
+    background-color: black;
+    font-size: 20px;
+}
+.nav-links{
+    color: yellow;
+    text-decoration: none;
+}
+
+.nav-links:hover{
+    color: orangered;
+}
+
+#sneaker-history{
+    color: goldenrod;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .para{
+    text-align: center;
+    color: cyan;
+  }
+  .para-1{
+    background-color: black;
+  }
+
+.footer-1{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+ .support {
+    font-size: larger;
+    font-weight: bolder;
+    color: darkblue;
+    margin-left: 750px;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #ffd900;
+}
+
+.form-table{
+    font-size: larger;
+    font-weight: bolder;
+    color: rgb(198, 12, 239);
+}
+
+#description {
+   box-sizing: border-box;
+   margin-left: 500px;
+   color: red;
+   font-weight: bolder;
+}
+
+#submit-bttn{
+    height: 40px;
+    width: 80;
+    color: aqua;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#submit-bttn:hover{
+    color: #ffd900;
+}
+
+.heading-description{
+    font-size: large;
+    font-weight: bold;
+    color: brown;
+}
+.head-desc{
+    color: goldenrod;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.price{
+    font-size: 30px;
+    font-weight: bolder;
+    color: blue;
+    margin-left: 200px;
+}
+
+.link{
+    font-size: 30px;
+    font-weight: bolder;
+    color: red;
+    margin-left: 200px;
+    text-decoration: none;
+}
+#final-sup {
+   float: right;
+   color: rgb(251, 4, 45);
+   font-weight: bold;
+}
+
+#managment{
+    font-weight: bold;
+    width: 350px;
+    height: 200px;  
+    padding: 30px;
+    border: 1px solid red;
+}
+
+#feedback{
+    margin-top: 5px;
+    width: 200px;
+    height: 100px;
+}
+
+#share{
+    float: right;
+    margin-top: -200px;
+    margin-right: 20px;
+}
+
+.share-option{
+    text-decoration: none;
+}
